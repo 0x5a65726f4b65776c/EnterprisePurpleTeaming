@@ -7,6 +7,12 @@
 <p><h3 align="center"><b>ABSTRACT</b></h3></p>
 <p align="left">Data breaches and cybersecurity incidents continue to impact businesses despite the proliferation of cybersecurity solutions and increased cybersecurity spending over the past decade. The continually evolving threat landscape requires proactive cybersecurity strategies to decrease attacker dwell time on organizations’ networks and improve the cybersecurity posture. A strategy gaining popularity is purple teaming, which refers to multiple cybersecurity teams working together to improve an organization’s security posture from a high-level perspective. This study revealed that the high-level enterprise purple teaming definition is cyber threat intelligence-led offensive operations that improve an organization’s security posture, foster collaboration between multiple teams, provide skill building and learning opportunities, and produce detections or additional knowledge about an organization's defensive posture. Many cybersecurity leaders are beginning to implement purple teaming in their security operations centers to prepare their cybersecurity teams, foster collaboration within the organization, test its people, process, and technology (PPT) framework, and progressively track its defenses in attempts to improve its security posture. 
 </p>
+<p><h1 align="left">⚠️<b>2026 CURRENCY NOTES</b></h1></p>
+<ul>
+ <li><b>SCYTHE / Purple Team Exercise Framework (PTEF) links:</b> SCYTHE (scythe.io), original publisher of the PTEF referenced throughout this repo, remains an independently operated company as of 2026 — it has not been acquired by ExtraHop or anyone else. However, personnel and content tied to the framework have moved on (e.g., PTEF co-author Jorge Orchilles has since left SCYTHE for a role at Verizon), and vendor sites/training catalogs reorganize their URLs over time. <b>Verify</b> scythe.io and academy.attackiq.com links referencing SCYTHE-authored content before relying on them, since paths can move or go stale.</li>
+ <li><b>ATT&CK-version-pinned mapping files:</b> Any NIST CSF/CIS/MITRE ATT&CK mapping file in this repo that is pinned to a specific old ATT&CK release (e.g., v8.2, published 2020) is a <b>historical baseline only</b>. ATT&CK has had many subsequent releases with added/renamed/deprecated techniques. Re-map against the current release listed at <a href="https://attack.mitre.org/resources/updates/">https://attack.mitre.org/resources/updates/</a> rather than trusting a hardcoded old version.</li>
+</ul>
+<b></b>
 <p><h1 align="left">🍉<b>DISSERTATION EXTRAS</b></h1></p>
 <ul>
  <li><b>Extra Interview📽️</li></b>
@@ -17,7 +23,8 @@
 <ul><li>Enterprise Purple Teaming: An Exploratory Qualitative Study - Pracitioner Summary - <a href="https://drive.google.com/file/d/1iGPZISFhZoKaDTzx5X0jCokYmhCU8eD1/view?usp=sharing">Link</a></ul></li>
 <b><li>Purple Team Exercise Idea Queue🌴</b> - <a href="https://docs.google.com/spreadsheets/d/1wHRrqwb1chTWP8kQqJjA2Chl7bUtCxRlobiyT3V2thE/edit?usp=sharing">Link</a></li>
 <b><li>Resource for NIST Cybersecurity Framework💋</li></b>
-<ul><li>NIST Cybersecurity Framework, MITRE ATT&CK v8.2, & CIS Controls v8 CSV (Mappings Compliments of <a href="https://www.cisecurity.org/controls/cis-controls-navigator/">CIS</a> - Center for Internet Security) - <a href="https://github.com/ch33r10/EnterprisePurpleTeaming/blob/main/PractitionerResources/NISTCSF_MITRE.csv">Link</a></li></ul>
+<ul><li>NIST Cybersecurity Framework, MITRE ATT&CK v8.2, & CIS Controls v8 CSV (Mappings Compliments of <a href="https://www.cisecurity.org/controls/cis-controls-navigator/">CIS</a> - Center for Internet Security) - <a href="https://github.com/ch33r10/EnterprisePurpleTeaming/blob/main/PractitionerResources/NISTCSF_MITRE.csv">Link</a></li>
+ <ul><li><i>Note (2026): This CSV's technique IDs are pinned to ATT&CK v8.2 (2020) — a historical baseline only. Re-map against the current ATT&CK release at <a href="https://attack.mitre.org/resources/updates/">https://attack.mitre.org/resources/updates/</a> before using it for current control validation.</i></li></ul></ul>
 <b><li>Spotify Playlist🎶</b> - <a href="https://open.spotify.com/playlist/20mPWgtf4Yt6QlPb5va09S?si=uMOT6bGETdyYmFgPkq7Xtg&dl_branch=1&nd=1">Link</a></li>
 <b><li>YouTube Purple Team Playlist🍿</b> - <a href="https://youtube.com/playlist?list=PL_tPOjPUxtXB8Jc-1p9EDPuqZP44Yk_CX">Link</a></li>
  </ul>
@@ -149,6 +156,18 @@
  <ul><li>TALK: Red Team Exercise Closure and Showing Value with VECTR with Jorge Orchilles - <a href="https://youtu.be/7D6lTVOsD-o">Link</a></ul></li>
  <ul><li>TALK RESOURCES: Adversarial Threat Modeling - A Practical Approach to Purple Teaming in the Enterprise by Sajid Nawaz Khan @snkhan - <a href="https://github.com/ssnkhan/adversarial-threat-modelling">Link</a></ul></li>
 </ul> 
+<b></b>
+<p><h1 align="left">🤖<b>AI-DRIVEN ADVERSARY SIMULATION</b></h1></p>
+<ul>
+ <li>Caldera MCP Plugin by MITRE - AI-powered plugin for Caldera that orchestrates long-running LLM workflows to autonomously build adversary emulation abilities and plan/execute operations, optionally enriched with RAG over CTI STIX data - <a href="https://github.com/mitre/mcp">Link</a></li>
+ <ul><li>BLOG: Connecting LLMs to Caldera with the MCP Plugin by MITRE Caldera - <a href="https://medium.com/@mitrecaldera/connecting-llms-to-caldera-with-the-mcp-plugin-da1450254827">Link</a></ul></li>
+ <li>Prelude Operator by Prelude - Free/largely open-source autonomous adversary emulation platform (built by the original MITRE Caldera team) that continuously and automatically executes emulation tests - <a href="https://github.com/preludeorg/operator-support">Link</a></li>
+ <li>Prelude Pneuma by Prelude - Open-source, cross-platform GoLang agent that connects to Operator to autonomously execute adversary emulation attacks on target hosts - <a href="https://github.com/preludeorg/pneuma">Link</a></li>
+ <li>PyRIT (Python Risk Identification Tool) by Microsoft AI Red Team - Open-source, open-access automation framework for red teaming generative AI / LLM systems (prompt injection, jailbreaks, harmful content generation probing) - <a href="https://github.com/Azure/PyRIT">Link</a></li>
+ <li>garak by NVIDIA (originally Leon Derczynski) - Open-source LLM vulnerability scanner that probes generative AI systems for prompt injection, jailbreaks, data leakage, hallucination, and toxicity via 50+ probe modules - <a href="https://github.com/NVIDIA/garak">Link</a></li>
+ <ul><li><b>Note:</b> PyRIT and garak are purpose-built for <i>AI/LLM red teaming</i> (assessing the safety/security of a generative-AI system itself) - a distinct discipline from AI-driven <i>traditional</i> adversary emulation (using AI/agentic automation to emulate human attackers against infrastructure, as with the Caldera MCP plugin or Prelude tooling above). Don't conflate the two when scoping an exercise.</li></ul>
+ <li><b>Governance Note:</b> Autonomous/agentic purple-team tooling capable of taking real action on live systems needs the same rigor as any other purple team exercise - and more, given reduced human latency in the loop. At minimum: explicit scope and authorization boundaries (RoE) defining what the agent may touch, human-in-the-loop approval gates before any high-impact or irreversible action (lateral movement, credential use, destructive payloads, production system changes), and full audit logging of every agent decision and action taken. This is consistent with - not a replacement for - the Rules of Engagement discipline this repo's frameworks (PTEF, Atomic Purple Team) already emphasize.</li>
+</ul>
 <b></b>
 <p><h1 align="left">🍭<b>PURPLE TEAM COMMERCIAL TOOLS</b></h1></p>
 <ul>
